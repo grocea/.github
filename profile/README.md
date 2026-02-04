@@ -73,14 +73,14 @@ This organisation contains the following repositories:
 ### 🔧 Core Application
 | Repository | Description | Tech Stack |
 |------------|-------------|------------|
-| [**grocea-mobile**](https://github.com/grocea-app/grocea-mobile) | iOS and Android mobile application | React Native, Redux, TypeScript |
-| [**grocea-backend**](https://github.com/grocea-app/grocea-backend) | RESTful API server and business logic | FastAPI, Python, PostgreSQL |
-| [**grocea-ml**](https://github.com/grocea-app/grocea-ml) | Machine learning models and training pipelines | Python, TensorFlow, scikit-learn |
+| [**grocea-mobile**](https://github.com/grocea/grocea-mobile) | iOS and Android mobile application | React Native, Redux, TypeScript |
+| [**grocea-backend**](https://github.com/grocea/grocea-backend) | RESTful API server and business logic | FastAPI, Python, PostgreSQL |
+| [**grocea-ml**](https://github.com/grocea/grocea-ml) | Machine learning models and training pipelines | Python, TensorFlow, scikit-learn |
 
 ### 🚀 Infrastructure & Deployment (in consideration)
 | Repository | Description | Tech Stack |
 |------------|-------------|------------|
-| [**grocea-infrastructure**](https://github.com/grocea-app/grocea-infrastructure) | Infrastructure as Code and deployment configs | Terraform, Docker, Kubernetes |
+| [**grocea-infrastructure**](https://github.com/grocea/grocea-infrastructure) | Infrastructure as Code and deployment configs | Terraform, Docker, Kubernetes |
 
 ---
 
