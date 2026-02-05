@@ -40,6 +40,52 @@ Grocea is a receipt-based meal planning application that solves the age-old ques
 
 ---
 
+## 📝 Development Notes
+
+Currently developing basic OCR functionality.
+
+- Image preprocessing around 50% there
+  - For cleaned receipts, the preprocessing will process too much, removing too many details, resulting in gibberish being read by EasyOCR
+  - Need to finetune preprocessing steps
+
+- OCR using EasyOCR
+  - Somewhat accurate, issues with "." and "," and reading currency symbols when using existing model
+  - May need to custom make a model for reading receipts
+
+- Text processing
+  - Able to detect dates, amounts, and total from read text, but depends on quality of read text from OCR
+
+---
+
+## 🛣️ Development Roadmap
+
+### Phase 1: MVP (Current)
+- [x] Project architecture design
+- [ ] Basic receipt OCR functionality
+- [ ] Pantry management (add/remove items)
+- [ ] Simple recipe recommendations
+- [ ] Mobile app UI/UX foundation
+
+### Phase 2: Core Features
+- [ ] Advanced recipe recommendation algorithm
+- [ ] Automatic pantry stock updates
+- [ ] User preference settings
+- [ ] Expiry date tracking and notifications
+
+### Phase 3: Intelligence
+- [ ] Time-series forecasting for stock prediction
+- [ ] Price-per-meal calculations
+- [ ] Custom recipe creation with NLP
+- [ ] Enhanced recommendation engine
+
+### Phase 4: Advanced Features
+- [ ] Meal photo recognition
+- [ ] Shopping list generation
+- [ ] Community recipe sharing
+- [ ] Nutritional information tracking
+
+---
+
 ## 🏗️ Project Architecture
 
 ```
@@ -166,35 +212,6 @@ For detailed setup instructions, please refer to the README in each repository.
 </div>
 
 > *Note: Screenshots will be updated as the project develops*
-
----
-
-## 🛣️ Development Roadmap
-
-### Phase 1: MVP (Current)
-- [x] Project architecture design
-- [ ] Basic receipt OCR functionality
-- [ ] Pantry management (add/remove items)
-- [ ] Simple recipe recommendations
-- [ ] Mobile app UI/UX foundation
-
-### Phase 2: Core Features
-- [ ] Advanced recipe recommendation algorithm
-- [ ] Automatic pantry stock updates
-- [ ] User preference settings
-- [ ] Expiry date tracking and notifications
-
-### Phase 3: Intelligence
-- [ ] Time-series forecasting for stock prediction
-- [ ] Price-per-meal calculations
-- [ ] Custom recipe creation with NLP
-- [ ] Enhanced recommendation engine
-
-### Phase 4: Advanced Features
-- [ ] Meal photo recognition
-- [ ] Shopping list generation
-- [ ] Community recipe sharing
-- [ ] Nutritional information tracking
 
 ---
 
