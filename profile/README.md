@@ -61,10 +61,12 @@ Currently developing basic OCR functionality.
 
 ### Phase 1: MVP (Current)
 - [x] Project architecture design
-- [ ] Basic receipt OCR functionality
 - [ ] Pantry management (add/remove items)
-- [ ] Simple recipe recommendations
 - [ ] Mobile app UI/UX foundation
+
+### Phase 1: Basic Functionality
+- [ ] Basic receipt OCR functionality
+- [ ] Simple recipe recommendations
 
 ### Phase 2: Core Features
 - [ ] Advanced recipe recommendation algorithm
