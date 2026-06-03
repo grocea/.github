@@ -121,7 +121,7 @@ This organisation contains the following repositories:
 ### 🔧 Core Application
 | Repository | Description | Tech Stack |
 |------------|-------------|------------|
-| [**grocea-pwa**](https://github.com/grocea/grocea-pwa) | PWA for grocea | [PENDING] |
+| [**grocea-pwa**](https://github.com/grocea/grocea-pwa) | PWA for grocea | TypeScript, React, Vite |
 | [**grocea-backend**](https://github.com/grocea/grocea-backend) | RESTful API server and business logic | FastAPI, Python, PostgreSQL |
 | [**grocea-ml**](https://github.com/grocea/grocea-ml) | Machine learning models and training pipelines | Python, TensorFlow, scikit-learn |
 
