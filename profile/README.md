@@ -59,7 +59,7 @@ Currently developing basic OCR functionality.
 
 ## 🛣️ Development Roadmap
 
-### Phase 1: MVP (Current)
+### Phase 0: MVP (Current)
 - [x] Project architecture design
 - [ ] Pantry management (add/remove items)
 - [ ] Mobile app UI/UX foundation
