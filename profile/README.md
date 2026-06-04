@@ -61,19 +61,21 @@ Currently developing basic OCR functionality.
 
 ### Phase 0: MVP (Current)
 - [x] Project architecture design
-- [ ] Pantry management (add/remove items)
 - [ ] Mobile app UI/UX foundation
+- [ ] Pantry management (add/remove items)
+- [ ] Recipe usage to pantry deduction
 
 ### Phase 1: Basic Functionality
-- [ ] Basic receipt OCR functionality
 - [ ] Simple recipe recommendations
+- [ ] Shopping list generation from recipes
+- [ ] Basic receipt OCR functionality
 
 ### Phase 2: Core Features
-- [ ] Advanced recipe recommendation algorithm
-- [ ] Automatic pantry stock updates
+- [ ] Automatic pantry stock updates from receipts
 - [ ] User preference settings
 - [ ] Expiry date tracking and notifications
-
+- [ ] Advanced recipe recommendation algorithm
+      
 ### Phase 3: Intelligence
 - [ ] Time-series forecasting for stock prediction
 - [ ] Price-per-meal calculations
@@ -82,7 +84,6 @@ Currently developing basic OCR functionality.
 
 ### Phase 4: Advanced Features
 - [ ] Meal photo recognition
-- [ ] Shopping list generation
 - [ ] Community recipe sharing
 - [ ] Nutritional information tracking
 
@@ -92,14 +93,14 @@ Currently developing basic OCR functionality.
 
 ```
 ┌─────────────────┐
-│  Mobile App     │  React Native / Flutter
-│  (iOS/Android)  │
+│  Progressive    │  React + Typescript + Vite
+│  Web App        │
 └────────┬────────┘
          │
          │ REST API
          ▼
 ┌─────────────────┐
-│  Backend API    │  FastAPI (Python)
+│  Backend API    │  Undecided
 │  Server         │
 └────────┬────────┘
          │
@@ -107,8 +108,8 @@ Currently developing basic OCR functionality.
          ▼          ▼          ▼          ▼
     ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐
     │Database│ │ Object │ │   ML   │ │ Cache  │
-    │        │ │Storage │ │Services│ │        │
-    │Postgres│ │   S3   │ │        │ │ Redis  │
+    │        │ │Storage │ │        │ │        │
+    │Postgres│ │   S3   │ │Services│ │ Redis  │
     └────────┘ └────────┘ └────────┘ └────────┘
 ```
 
@@ -169,7 +170,7 @@ Grocea leverages several ML/AI techniques:
 
 1. **Clone the repositories**
    ```bash
-   git clone https://github.com/grocea-app/grocea-mobile.git
+   git clone https://github.com/grocea-app/grocea-pwa.git
    git clone https://github.com/grocea-app/grocea-backend.git
    git clone https://github.com/grocea-app/grocea-ml.git
    ```
@@ -201,6 +202,7 @@ Grocea leverages several ML/AI techniques:
 
 For detailed setup instructions, please refer to the README in each repository.
 
+<!--
 ---
 
 ## 🎨 Screenshots
@@ -217,7 +219,7 @@ For detailed setup instructions, please refer to the README in each repository.
 
 ---
 
-<!-- ## 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! This project is primarily a portfolio piece demonstrating full-stack ML development, but improvements and suggestions are appreciated.
 
@@ -243,11 +245,8 @@ Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of co
 
 ## 🛠️ Technology Stack
 
-### Mobile
-- **Framework**: React Native / Flutter
-- **State Management**: Redux Toolkit
-- **Navigation**: React Navigation
-- **API Client**: Axios + React Query
+### PWA
+- **Framework**: React + TypeScript + Vite
 
 ### Backend
 - **Framework**: FastAPI
@@ -305,7 +304,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Built with ❤️ to reduce food waste and simplify meal planning**
+**Built with ❤️ to simplify meal planning**
 
 [⬆ Back to Top](#-grocea)
 
